@@ -82,6 +82,13 @@ public class NoteDialogFragment extends DialogFragment {
     }
 
     @Override
+    public void onStop() {
+        super.onStop();
+        editTextTitle = binding.etTitle.getText().toString();
+        editTextDescription = binding.etDescription.getText().toString();
+    }
+
+    @Override
     public void onDetach() {
         super.onDetach();
         binding.etTitle.setText("");
