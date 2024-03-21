@@ -13,6 +13,7 @@ You can also build the apk manually, for this you need to clone this repository 
 ## Application functionality
 
 The app has features such as:
+- View notes
 - Creating notes
 - Edit notes
 - Deleting notes
