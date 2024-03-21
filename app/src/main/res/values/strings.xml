@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">MiniNotes</string>
+    <string name="title_create_note">Create Note</string>
+    <string name="title_edit_note">Edit Note</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="create">Create</string>
+    <string name="edit">Edit</string>
+    <string name="cancel">Cancel</string>
+    <string name="err_empty">The field must not be empty!</string>
 </resources>
